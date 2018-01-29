@@ -36,4 +36,4 @@ static int __init proc_kbuild_cflags_init(void)
 	proc_create("kbuild_cflags", 0, NULL, &kbuild_cflags_proc_fops);
 	return 0;
 }
-module_init(proc_kbuild_cflags_init);
+fs_initcall(proc_kbuild_cflags_init);
