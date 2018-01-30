@@ -1486,7 +1486,7 @@ static ssize_t fts_production_test_show(struct device *dev, struct device_attrib
 					cx2_h_thres = (unsigned char *)kmalloc(cx2_h_thres_size, GFP_KERNEL);
 					while (cx2_h_thres_index < cx2_h_thres_size)
 						cx2_h_thres[cx2_h_thres_index++] = configData[i];
-						i++;
+					i++;
 					if (debug_mode)
 					tp_log("%s,0xaa0x55 01 configData[i] = %d\n", __func__, configData[i]);
 

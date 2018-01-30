@@ -4,6 +4,8 @@
 
 # Each configuration option enables a list of files.
 
+ccflags-y += -Wno-stringop-overflow
+
 wm97xx-ts-y := wm97xx-core.o
 
 obj-$(CONFIG_OF_TOUCHSCREEN)		+= of_touchscreen.o
