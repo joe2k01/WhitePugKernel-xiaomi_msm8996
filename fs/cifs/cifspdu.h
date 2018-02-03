@@ -506,7 +506,7 @@ put_bcc(__u16 count, struct smb_hdr *hdr)
 typedef struct negotiate_req {
 	struct smb_hdr hdr;	/* wct = 0 */
 	__le16 ByteCount;
-	unsigned char DialectsArray[1];
+	unsigned char DialectsArray[];
 } __attribute__((packed)) NEGOTIATE_REQ;
 
 /* Dialect index is 13 for LANMAN */

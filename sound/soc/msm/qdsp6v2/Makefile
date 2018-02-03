@@ -1,4 +1,4 @@
-ccflags-y += -Wno-array-bounds
+subdir-ccflags-y := -Wno-array-bounds
 
 snd-soc-qdsp6v2-objs += msm-dai-q6-v2.o msm-pcm-q6-v2.o msm-pcm-routing-v2.o \
 			msm-compress-q6-v2.o \

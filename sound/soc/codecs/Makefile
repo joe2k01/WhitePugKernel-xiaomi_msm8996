@@ -1,4 +1,4 @@
-ccflags-y += -Wno-return-local-addr
+subdir-ccflags-y := -Wno-return-local-addr
 
 snd-soc-88pm860x-objs := 88pm860x-codec.o
 snd-soc-ab8500-codec-objs := ab8500-codec.o

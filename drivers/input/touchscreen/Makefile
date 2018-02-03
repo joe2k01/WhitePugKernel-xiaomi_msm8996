@@ -4,7 +4,7 @@
 
 # Each configuration option enables a list of files.
 
-ccflags-y += -Wno-stringop-overflow
+subdir-ccflags-y := -Wno-stringop-overflow
 
 wm97xx-ts-y := wm97xx-core.o
 
