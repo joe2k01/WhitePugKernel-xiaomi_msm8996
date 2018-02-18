@@ -24,6 +24,7 @@ obj-$(CONFIG_MSM_COMMON_LOG) += common_log.o
 obj-$(CONFIG_MSM_HVC) += hvc.o
 obj-$(CONFIG_MSM_CPU_PWR_CTL) += cpu_pwr_ctl.o
 obj-$(CONFIG_MSM_CACHE_M4M_ERP64) += cache_m4m_erp64.o
+obj-$(CONFIG_STATE_NOTIFIER) += state_notifier.o
 obj-$(CONFIG_SOC_BUS)  +=      socinfo.o
 obj-$(CONFIG_MSM_BOOT_STATS) += boot_stats.o
 obj-$(CONFIG_MSM_BOOT_TIME_MARKER) += boot_marker.o
