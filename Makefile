@@ -398,7 +398,7 @@ POLLY_FLAGS := -mllvm -polly \
 ARM_OPT_FLAGS := -mcpu=kryo \
 		-mhvx-double -mhvx -marm \
 
-OPT_FLAGS := -O3 -pipe -fvectorize \
+OPT_FLAGS := -Os -pipe -fvectorize \
 		-fslp-vectorize -freroll-loops -funroll-loops \
 		$(POLLY_FLAGS) $(ARM_OPT_FLAGS)
 else
