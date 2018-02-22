@@ -18,11 +18,7 @@ dtb-$(CONFIG_MACH_XIAOMI_LITHIUM) += \
 	lithium-msm8996-v3.0-pmi8996-mtp.dtb \
 	lithium-msm8996pro-pmi8996-mtp.dtb
 dtb-$(CONFIG_MACH_XIAOMI_SCORPIO) += \
-	scorpio-msm8996-v3-pmi8996-mtp.dtb \
-	scorpio-msm8996-v3.0-pmi8996-mtp.dtb \
 	scorpio-msm8996pro-pmi8996-mtp.dtb \
-	scorpio-p1-msm8996-v3-pmi8996-mtp.dtb \
-	scorpio-p1-msm8996-v3.0-pmi8996-mtp.dtb \
 	scorpio-p1-msm8996pro-pmi8996-mtp.dtb
 else
 dtb-$(CONFIG_ARCH_MSM8996) += msm8996-v2-pmi8994-cdp.dtb \
